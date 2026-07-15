@@ -1,0 +1,8 @@
+{
+  "fields": {
+    "id": {"required": true, "type": "integer"},
+    "email": {"required": true, "type": "email", "max_length": 120},
+    "status": {"required": true, "allowed": ["active", "inactive"]},
+    "amount": {"required": true, "type": "decimal"}
+  }
+}
